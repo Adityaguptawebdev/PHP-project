@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - My E-commerce Store</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">My Store</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Whether you have a question, feedback, or need assistance, feel free to reach out to us using the form below or through our contact details.</p>
+        
+        <div class="contact-info">
+            <div class="info-item">
+                <h3>Our Office</h3>
+                <p>123 E-commerce St, Cityville, ABC 123</p>
+            </div>
+            <div class="info-item">
+                <h3>Email Us</h3>
+                <p>support@mystore.com</p>
+            </div>
+            <div class="info-item">
+                <h3>Call Us</h3>
+                <p>+1 (123) 456-7890</p>
+            </div>
+        </div>
+
+        <form action="send-message.php" method="POST" class="contact-form">
+            <h3>Send Us a Message</h3>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My E-commerce Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
